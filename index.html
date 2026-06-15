@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Quem Sou Eu | Letícia Pereira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="hero" id="inicio">
+    <nav class="topbar" aria-label="Navegacao principal">
+      <a class="brand" href="#inicio" aria-label="Ir para o inicio">LP</a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#disciplinas">Disciplinas</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <div class="hero-shapes" aria-hidden="true">
+      <span class="shape shape-a"></span>
+      <span class="shape shape-b"></span>
+      <span class="shape shape-c"></span>
+      <span class="shape shape-d"></span>
+    </div>
+
+    <div class="hero-content">
+      <div class="avatar-visual" aria-label="Avatar abstrato de Marina Costa" role="img">
+        <img src="foto perfil.jpg.jpeg" alt="Foto de Letícia Pereira sorrindo" width="300" height="400">
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Portfolio web</p>
+        <h1>Letícia Pereira</h1>
+        <p class="tagline">"Somos aquilo que fazemos repetidamente" - Aristóteles</p>
+        <div class="hero-actions" aria-label="Acoes principais">
+          <a class="button button-primary" href="#projetos">Ver projetos</a>
+          <a class="button button-secondary" href="mailto:leticia.silva24@pucpr.edu.br">Enviar e-mail</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro-section" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">Sobre mim</p>
+        <h2>Uma história em construção</h2>
+      </div>
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Origem</h3>
+          <p>Meu nome é Letícia, sou estudante do 1° semestre do curso de Ciência da Computação da PUCPR.</p>
+          <p>Sempre vi a tecnologia como uma área de oportunidades, onde seria possível estar em constante evolução.</p>
+        </article>
+        <article class="about-card accent-card">
+          <h3>Motivação</h3>
+          <p>O que mais me motiva é saber que no fututo com o meu trabalho, estarei contribuindo para algo que faça a diferença.</p>
+          <p>Este portfólio reúne o início da minha trajetória: primeiros projetos, aprendizados e sinais do tipo de profissional que quero me tornar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="curiosidades">
+      <div class="section-heading">
+        <p class="eyebrow">Curiosidades</p>
+        <h2>Alguns detalhes que me definem</h2>
+      </div>
+      <div class="curiosity-layout">
+        <ul class="curiosity-list">
+          <li><span>01</span>.??????</li>
+          <li><span>02</span>Gosto de reparar em paletas de cores em cartazes, capas de album e jogos.</li>
+          <li><span>03</span>Tenho um caderno de ideias para anotar projetos que tenho interesse em desenvolver.</li>
+          <li><span>04</span>Sou uma pessoa que aprende melhor através da prática e da experimentação.</li>
+          <li><span>05</span>Após adentrar o curso, quando vejo um aplicativo ou site fico tentando imaginar como foi feito.</li>
+        </ul>
+        <aside class="surprise-panel">
+          <h3>Curiosidade surpresa</h3>
+          <p>Existe uma coisa sobre mim que quase sempre aparece nos meus projetos.</p>
+          <button class="button button-accent" id="surpriseButton" aria-expanded="false" aria-controls="surpriseText">
+            Revelar
+          </button>
+          <p class="surprise-text" id="surpriseText" hidden>Eu gosto de esconder pequenos detalhes visuais que so aparecem quando alguem interage com a pagina.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="section-heading">
+        <p class="eyebrow">HOBBIES</p>
+        <h2>O QUE ME INSPIRA?</h2>
+      </div>
+      <div class="card-grid hobby-grid">
+        <article class="info-card">
+          <span class="card-mark mark-teal" aria-hidden="true"></span>
+          <h3>Cinema</h3>
+          <p>Muitas das grandes ideias começaram como ficção, tornando o cinema um estímulo para a criatividade, criação e inovação.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-mark mark-coral" aria-hidden="true"></span>
+          <h3>Música</h3>
+          <p>Uso música para entrar no ritmo de estudo e também para imaginar atmosferas de projetos.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-mark mark-yellow" aria-hidden="true"></span>
+          <h3>Fotografia</h3>
+          <p>Exercita meu olhar para composição, contraste, ritmo visual e expressão.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-mark mark-violet" aria-hidden="true"></span>
+          <h3>Jogos</h3>
+          <p>Observo fases, recompensas e controles para entender como uma experiência prende a atenção.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section band-section" id="disciplinas">
+      <div class="section-heading">
+        <p class="eyebrow">Disciplinas favoritas</p>
+        <h2>Matérias que combinam comigo</h2>
+      </div>
+      <div class="subject-grid">
+        <article class="subject-card">
+          <span>01</span>
+          <h3>Experiência Criativa</h3>
+          <p>Porque mistura programação, criatividade, colaboração e apresentação de ideias.</p>
+        </article>
+        <article class="subject-card">
+          <span>02</span>
+          <h3>Matemática</h3>
+          <p>Ajuda a enxergar padrões, criar lógica e resolver desafios por partes.</p>
+        </article>
+        <article class="subject-card">
+          <span>03</span>
+          <h3>Filosofia</h3>
+          <p>Exercita o pensamento crítico e auxilia na reflexão sobre o papel da tecnologia na sociedade, além de questionar os impactos de nossas criações.</p>
+        </article>
+        <article class="subject-card">
+          <span>04</span>
+          <h3>Língua Portuguesa</h3>
+          <p> Auxilia na elaboração de ideias, na comunicação clara e a correta compreensão dos problemas que deverão ser resolvidos no dia a dia.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-heading">
+        <p class="eyebrow">MEUS PROJETOS</p>
+        <h2>Trabalhos de Destaque</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+           <img src="jogo OAP.jpeg" alt="Foto do jogo O Artefato Perdido" width="600" height="300">
+          </svg>
+          <div class="project-body">
+            <p class="project-type">Construct</p>
+            <h3>O Artefato Perdido</h3>
+            <p>Um jogo inspirado em "Mario Bros", onde o personagem - preso dentro de um livro - deve coletar páginas e derrotar inimigos para voltar ao mundo real.</p>
+            <a class="text-link" href="#" aria-label="Abrir projeto O Artefato Perdido">Acessar projeto</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="app hobbies.jpg.jpeg" alt="Foto do aplicativo dos Hobbies" width="600" height="300">
+          <div class="project-body">
+            <p class="project-type">Processing</p>
+            <h3>Aplicativo dos Hobbies</h3>
+            <p>Um aplicativo que permite aos usuários entender os malefícios do tempo prolongado de tela, e oferece opções para sua diminuição.</p>
+            <a class="text-link" href="#" aria-label="Abrir projeto Aplicativo dos Hobbies">Acessar projeto</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contato">
+    <div>
+      <p class="eyebrow">Contato</p>
+      <h2>Vamos criar algo interessante?</h2>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:leticia.silva24@pucpr.edu.br">leticia.silva24@pucpr.edu.br</a>
+      <a href="https://github.com/letticiaPS" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in," target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+    <p class="copyright">Letícia Pereira da Silva · <span id="currentYear">2026</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
