@@ -213,7 +213,7 @@ svg {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 280px minmax(0, 760px;
+  grid-template-columns: 280px minmax(0, 760px);
   align-items: center;
   gap: 56px;
   max-width: 1180px;
@@ -734,3 +734,4 @@ h3 {
     animation-iteration-count: 1 !important;
   }
 }
+
