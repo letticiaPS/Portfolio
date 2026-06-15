@@ -222,7 +222,7 @@ svg {
 
 .avatar-visual {
   width: 280px;
-  aspect-ratio: 1;
+  aspect-ratio: 0.7;
   overflow: hidden;
   border: 2px solid rgba(255, 255, 255, 0.34);
   box-shadow: 18px 18px 0 var(--yellow), -18px -18px 0 rgba(0, 184, 169, 0.7);
