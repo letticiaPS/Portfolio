@@ -10,7 +10,7 @@ Este site reúne meus interesses e os projetos que desenvolvi ao longo do semest
 
 ## 🔗 Acesse o site
 
- [letticiaps.github.io/Portfolio](https://letticiaps.github.io/Portfolio/)
+[letticiaps.github.io/Portfolio](https://letticiaps.github.io/Portfolio/)
 
 ## 📁 Estrutura do projeto
 
@@ -29,31 +29,30 @@ portfolio/
 ## 🗂️ Seções do site
 
 - **Início** — apresentação com foto, nome e frase
-- **Sobre mim** — Origem e motivação
+- **Sobre mim** — origem e motivação
 - **Curiosidades** — fatos sobre mim (com interação surpresa)
 - **Hobbies** — cinema, música, fotografia e jogos
 - **Disciplinas favoritas** — matérias e por que gosto delas
-- **Meus Projetos** — trabalhos desenvolvidos durante o semestre
-- **Contato** — E-mail e GitHub
+- **Meus Projetos** — trabalhos desenvolvidos no semestre
+- **Contato** — e-mail e GitHub
 
 ## Projetos em destaque
 
-O Artefato Perdido
-
-Jogo inspirado em Mario Bros, desenvolvido no Construct. O personagem, preso dentro de um livro, deve coletar páginas e derrotar inimigos para voltar ao mundo real.
-⬇️ Baixar jogo (Google Drive)
+### O Artefato Perdido
+Jogo inspirado em Mario Bros, desenvolvido no **Construct**. O personagem, preso dentro de um livro, deve coletar páginas e derrotar inimigos para voltar ao mundo real.
+⬇️ [Baixar jogo (Google Drive)](https://drive.google.com/drive/folders/1BnGtaflk9YpQNOHRdd6BFedY8brWFaaK?usp=sharing)
 
 ### Aplicativo dos Hobbies
 Aplicativo desenvolvido no **Processing** que conscientiza sobre os malefícios do tempo prolongado de tela e oferece alternativas para sua redução.
 🔗 [Ver repositório](https://github.com/letticiaPS/Aplicativo-de-Hobbies)
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## Autora
+## 👩‍💻 Autora
 
 **Letícia Pereira da Silva**
 Estudante de Ciência da Computação — PUCPR
