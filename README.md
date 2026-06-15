@@ -38,8 +38,10 @@ portfolio/
 
 ## Projetos em destaque
 
-### O Artefato Perdido
-Jogo inspirado em Mario Bros, desenvolvido no **Construct**. O personagem, preso dentro de um livro, deve coletar páginas e derrotar inimigos para voltar ao mundo real.
+O Artefato Perdido
+
+Jogo inspirado em Mario Bros, desenvolvido no Construct. O personagem, preso dentro de um livro, deve coletar páginas e derrotar inimigos para voltar ao mundo real.
+⬇️ Baixar jogo (Google Drive)
 
 ### Aplicativo dos Hobbies
 Aplicativo desenvolvido no **Processing** que conscientiza sobre os malefícios do tempo prolongado de tela e oferece alternativas para sua redução.
